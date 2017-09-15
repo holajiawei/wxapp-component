@@ -18,5 +18,35 @@
   "bugs": {
     "url": "https://github.com/holajiawei/wxapp-component/issues"
   },
-  "homepage": "https://github.com/holajiawei/wxapp-component#readme"
+  "homepage": "https://github.com/holajiawei/wxapp-component#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "file-loader": "^0.11.2",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "mocha": "^3.5.3",
+    "pug": "^2.0.0-rc.4",
+    "pug-loader": "^2.3.0",
+    "sinon": "^3.2.1",
+    "webpack": "^3.5.6",
+    "wxapp-webpack-plugin": "0.0.0-12",
+    "wxml-loader": "0.0.0-6"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "es6-promise": "^4.1.1",
+    "lodash": "^4.17.4",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.15.6"
+  }
+
 }
